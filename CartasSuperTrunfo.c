@@ -3,98 +3,98 @@
 int main()
 {
 
-  char estado = 'A';
-  char codigo[5] = "A01";
-  char nome[8] = "SaoPaulo";
-  int populaçao = 12325000;
-  int numero = 50;
-  float area = 1521.11;
-  float PIB = 699.280;
+  char estado1 = 'A';
+  char codigo1[5] = "A01";
+  char nome1[9] = "SaoPaulo";
+  int populaçao1 = 12325000;
+  int numero1 = 50;
+  float area1 = 1521.11;
+  float PIB1 = 699.280;
 
   printf("DESAFIO DE CARTAS SUPER TRUNFO");
   printf("\nCarta 1: \n");
 
   printf("\nSeu estado é:");
-  scanf("%c", &estado);
+  scanf("%c", &estado1);
 
   printf("Seu codigo é:  \n");
-  scanf("%s", codigo);
+  scanf("%s", codigo1);
 
   printf("O nome da  cidade é: \n");
-  scanf("%s", nome);
+  scanf("%s", nome1);
 
   printf("A populaçao da cidade é:  \n");
-  scanf("%d\a", &populaçao);
+  scanf("%d\a", &populaçao1);
 
   printf("O numero de pontos turisticos é: \n");
-  scanf("%d", &numero);
+  scanf("%d", &numero1);
 
   printf("Sua area em km é: \n");
-  scanf("%f", &area);
+  scanf("%f", &area1);
 
   printf("O seu PIB é: \n");
-  scanf("%f", &PIB);
+  scanf("%.2f", &PIB1);
 
   printf("\nSeu estado é: A");
-  printf("%c\n", estado);
+  printf("%c\n", estado1);
   printf("Seu codigo é: \n");
-  printf("%s\n", codigo);
+  printf("%s\n", codigo1);
   printf("O nome da cidade é: \n");
-  printf("%.8s\n", nome);
+  printf("%.9s\n", nome1);
   printf("A populaçao da cidade é: \n");
-  printf("%i\n", populaçao);
+  printf("%i\n", populaçao1);
   printf("O numero de pontos turisticos é: \n");
-  printf("%d\n", numero);
+  printf("%d\n", numero1);
   printf("Sua area em km é: \n");
-  printf("%f\n", area);
+  printf("%f\n", area1);
   printf("O seu PIB é: \n");
-  printf("%.6f\n", PIB);
+  printf("%.2f\n", PIB1);
 
-  char Estado = 'B';
-  char Codigo[3] = "B02";
-  char Nome[15] = "RiodeJaneiro";
-  double Populaçao = 67.48000;
-  int Numero = 30;
-  float Area = 1200.25;
-  float Pib = 300.50;
+  char Estado2 = 'B';
+  char Codigo2[4] = "B02";
+  char Nome2[15] = "RiodeJaneiro";
+  int Populaçao2 = 67.48000;
+  int Numero2 = 30;
+  float Area2 = 1200.25;
+  float Pib2 = 300.50;
 
   printf("\n Carta 2:\n");
 
   printf("O nome do Estado é: \n");
-  scanf(" %c", &Estado);
+  scanf(" %c", &Estado2);
 
   printf("O nome do codigo é: \n");
-  scanf(" %s", Codigo);
+  scanf(" %s", Codigo2);
 
   printf("O nome da cidade é: \n");
-  scanf(" %s", Nome);
+  scanf(" %s", Nome2);
 
   printf("A populaçao da cidade é: \n");
-  scanf("%f", &Populaçao);
+  scanf("%d", &Populaçao2);
 
   printf("O numero de pontos turisticos é: \n");
-  scanf("%d", &Numero);
+  scanf("%d", &Numero2);
 
   printf("Sua area em km é: \n");
-  scanf("%f", &Area);
+  scanf("%f", &Area2);
 
   printf("O seu pib é: \n");
-  scanf("%f", &Pib);
+  scanf("%.2f", &Pib2);
 
   printf("\nO nome do Estado é: \n");
-  printf("%c\n", Estado);
+  printf("%c\n", Estado2);
   printf("O nome do codigo é: \n");
-  printf("%.3s\n", Codigo);
+  printf("%.3s\n", Codigo2);
   printf("O nome da cidade é: \n");
-  printf("%.12s\n", Nome);
+  printf("%.12s\n", Nome2);
   printf("A populaçao da cidade é: \n");
-  printf("%f\n", Populaçao);
+  printf("%f\n", Populaçao2);
   printf("O numero de pontos turisticos é: \n");
-  printf("%d\n", Numero);
+  printf("%d\n", Numero2);
   printf("Sua area em km é: \n");
-  printf("%f\n", Area);
+  printf("%f\n", Area2);
   printf("O seu pib é: \n");
-  printf("%f\n", Pib);
+  printf("%.2f\n", Pib2);
 
   return 0;
 }
